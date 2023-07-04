@@ -21,6 +21,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 40px;
   border-radius: 5px;
+  color: white;
 }
 
 .container h1 {
@@ -45,5 +46,7 @@ body {
     background-color: transparent;
     outline: none;
     border: 0;
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid red;
+    display: block;
+    font-size: 20px;
 }
