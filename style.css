@@ -50,6 +50,14 @@ body {
   border: 0;
 }
 
+.btn-login:hover {
+   transform: scale(0.98);
+}
+
+.text {
+   margin: 30px;
+}
+
 .form-control {
   position: relative;
   margin: 20px 0 40px;
