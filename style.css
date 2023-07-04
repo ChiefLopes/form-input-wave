@@ -50,7 +50,6 @@ body {
 
 .form-control input {
   background-color: transparent;
-  /* outline: none; */
   border: 0;
   border-bottom: 2px solid red;
   display: block;
