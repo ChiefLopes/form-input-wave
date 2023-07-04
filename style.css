@@ -25,28 +25,40 @@ body {
 }
 
 .container h1 {
-  color:red;
+  color: red;
   font-size: 24px;
   text-align: center;
   margin-bottom: 30px;
 }
 
 .container a {
-    text-decoration: none;
-    color: lightblue;
+  text-decoration: none;
+  color: lightblue;
+}
+
+.btn-login {
+   cursor: pointer;
+   display: inline-block;
+   width: 100%;
 }
 
 .form-control {
-    position: relative;
-    margin: 20px 0 40px;
-    width: 300px;
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
 }
 
 .form-control input {
-    background-color: transparent;
-    outline: none;
-    border: 0;
-    border-bottom: 2px solid red;
-    display: block;
-    font-size: 20px;
+  background-color: transparent;
+  /* outline: none; */
+  border: 0;
+  border-bottom: 2px solid red;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input {
+    outline: 0;
 }
