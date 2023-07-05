@@ -51,11 +51,11 @@ body {
 }
 
 .btn-login:hover {
-   transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 .text {
-   margin: 30px;
+  margin: 30px;
 }
 
 .form-control {
@@ -79,7 +79,18 @@ body {
 }
 
 .form-control label {
-   position: absolute;
-   bottom: 15px;
-   left: 0;
-  }
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+}
+
+.form-control input:focus + label span,  /* when the input is clicked, the label goes light blue*/
+.form-control input:valid + label span {
+  color: lightblue;
+}
