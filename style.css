@@ -87,13 +87,13 @@ body {
 
 .form-control label span {
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.256, 1.55);
 }
 
 .form-control input:focus + label span,  /* when the input is clicked, the label goes light blue*/
 .form-control input:valid + label span {
   color: lightblue;
-  
+  transform: translateY(-15px);
 }
-
