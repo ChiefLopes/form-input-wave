@@ -1,4 +1,4 @@
-const labels = document.querySelectorAll("label");  //This returns a nodelist of all labels in the html document.
+const labels = document.querySelectorAll(".form-control label");  //This returns a nodelist of all labels in the html document.
 // And now because its a nodelist, we can go ahead and use forEach on it.
 labels.forEach(label => {
     label.innerHTML = label.innerText // this sets the innerHTMl(label) to match with the innerText (Email).
@@ -8,7 +8,5 @@ labels.forEach(label => {
         
 })
 
-
-console.log(labels);
 
 
