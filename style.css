@@ -67,15 +67,16 @@ body {
 .form-control input {
   background-color: transparent;
   border: 0;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid white;
   display: block;
   font-size: 20px;
   color: #fff;
 }
 
 .form-control input:focus,
-.form-control input {
+.form-control input:valid {
   outline: 0;
+  border-bottom: 2px solid lightblue;
 }
 
 .form-control label {
@@ -93,4 +94,6 @@ body {
 .form-control input:focus + label span,  /* when the input is clicked, the label goes light blue*/
 .form-control input:valid + label span {
   color: lightblue;
+  
 }
+
